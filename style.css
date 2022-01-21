@@ -577,6 +577,28 @@ section .title::after {
 
 
 
+ /* footer styles */
+ footer {
+   background: black;
+   display: flex;
+   align-content: center;
+   justify-content: center;
+   align-items: center;
+   padding: 10px;
+ }
+
+ footer p {
+   font-size: 1.6rem;
+   color: rgb(180, 180, 180);
+   margin: 10px 15px ;
+ }
+
+ footer .icons i{
+   color: crimson;
+   font-size: 2em;
+   margin: 0 5px;
+ }
+
 
 
 
@@ -727,5 +749,9 @@ section .title::after {
 
   .contact .right form .fields {
     flex-direction: column;
+  }
+
+  footer {
+    justify-content: space-around;
   }
 }
