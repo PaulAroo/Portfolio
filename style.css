@@ -87,7 +87,7 @@
 /* Home section styles */
 .home {
   display: flex;
-  background: url("/assets/Frame\ 1.svg") no-repeat center;
+  background: url("assets/Frame\ 1.svg") no-repeat center;
   height: 100vh;
   width: 100vw;
   color: white;
@@ -411,193 +411,193 @@ section .title::after {
   justify-content: space-around;
 }
 
- .project {
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   margin: 20px 0;
-   flex: 0.3;
-   text-align: justify;
-   box-shadow: 1px;
-   max-width: 350px;
-   border-radius: 10px;
-   box-shadow: 1px 1px 9px 0px;
- }
-
- .project .title {
-   text-align: center;
-   font-size: 20px;
-   font-weight: bold;
-   margin: 10px 0;
-   font-size: 25px;
- }
-
- .project p {
-   padding: 5px;
-   margin: 10px;
- }
-
- .project a {
-  font-size: 20px;
-  background: crimson;
-  color: white;
-  padding: 5px 30px;
-  margin: 10px;
-  border: 2px solid crimson;
+.project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 0;
+  flex: 0.3;
+  text-align: justify;
+  box-shadow: 1px;
+  max-width: 350px;
   border-radius: 10px;
-  transition: all 0.3s ease;
- }
+  box-shadow: 1px 1px 9px 0px;
+}
 
- .project a:hover {
-   background: none;
-   color: crimson;
- }
+.project .title {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 0;
+  font-size: 25px;
+}
 
- .project .thumbnail {
-   width: 350px;
-   height: 250px;
- }
+.project p {
+  padding: 5px;
+  margin: 10px;
+}
 
- .project .thumbnail img {
-   width: 100%;
-   height: 100%;
-   object-fit: cover;
-   border-radius: 10px;
- }
+.project a {
+font-size: 20px;
+background: crimson;
+color: white;
+padding: 5px 30px;
+margin: 10px;
+border: 2px solid crimson;
+border-radius: 10px;
+transition: all 0.3s ease;
+}
+
+.project a:hover {
+  background: none;
+  color: crimson;
+}
+
+.project .thumbnail {
+  width: 350px;
+  height: 250px;
+}
+
+.project .thumbnail img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
 
 
 
 
  /* Contact Styling */
- .contact .title::after {
-  content: "get in touch";
- }
+.contact .title::after {
+content: "get in touch";
+}
 
-  .contact .contact-content .column {
-   flex: 0.42;
- }
+.contact .contact-content .column {
+  flex: 0.42;
+}
 
- .contact .contact-content .text {
-   font-size: 20px;
-   font-weight: 600;
-   margin-bottom: 10px;
- }
+.contact .contact-content .text {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
 
- .contact .contact-content .left p {
-  text-align: justify;
-  color: #525252;
- }
+.contact .contact-content .left p {
+text-align: justify;
+color: #525252;
+}
 
- .contact .contact-content .left .icons {
-   margin: 10px 0;
- }
+.contact .contact-content .left .icons {
+  margin: 10px 0;
+}
 
- .contact .contact-content .row {
-   display: flex;
-   height: 65px;
-   align-items: center;
- }
+.contact .contact-content .row {
+  display: flex;
+  height: 65px;
+  align-items: center;
+}
 
- .contact .contact-content .row .info {
-   margin-left: 30px;
- }
+.contact .contact-content .row .info {
+  margin-left: 30px;
+}
 
- .contact .contact-content .row i {
-   font-size: 25px;
-   color: crimson;
- }
-
- .contact .contact-content .info .head {
-   font-weight: 500;
- }
-
- .contact .contact-content .info .sub-title {
-   color: #333;
- }
-
- .contact .right form .fields {
-   display: flex;
- }
-
- .contact .right form .field,
- .contact .right form .fields .field {
-   height: 45px;
-   width: 100%;
-   margin-bottom: 15px;
- }
-
- .contact .right form .textarea {
-   height: 100px;
-   width: 100%;
- }
-
- .contact .right form .name {
-   margin-right: 10px;
- }
-
- .contact .right form .field input,
- .contact .right form .textarea textarea {
-   height: 100%;
-   width: 100%;
-   border: 1px solid lightgray;
-   border-radius: 10px;
-   outline: none;
-   padding: 0 15px;
-   font-size: 17px;
-   font-family: "Poppins" sans-serif;
- }
-
- .contact .right form .textarea textarea {
-   padding-top: 10px;
-   resize: none;
- }
-
- .contact .right form .button {
-   height: 37px;
-   width: 110px;
- }
-
- .contact .right form .button button {
-   height: 100%;
-   width: 100%;
-   border: 2px solid crimson;
-   border-radius: 12px;
-   background: crimson;
-   color: white;
-   font-size: 17px;
-   font-weight: 500;
-   transition: all 0.3s ease;
- }
-
- .contact .right form .button button:hover {
+.contact .contact-content .row i {
+  font-size: 25px;
   color: crimson;
-  background: none;
-  cursor: pointer;
- }
+}
+
+.contact .contact-content .info .head {
+  font-weight: 500;
+}
+
+.contact .contact-content .info .sub-title {
+  color: #333;
+}
+
+.contact .right form .fields {
+  display: flex;
+}
+
+.contact .right form .field,
+.contact .right form .fields .field {
+  height: 45px;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.contact .right form .textarea {
+  height: 100px;
+  width: 100%;
+}
+
+.contact .right form .name {
+  margin-right: 10px;
+}
+
+.contact .right form .field input,
+.contact .right form .textarea textarea {
+  height: 100%;
+  width: 100%;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  outline: none;
+  padding: 0 15px;
+  font-size: 17px;
+  font-family: "Poppins" sans-serif;
+}
+
+.contact .right form .textarea textarea {
+  padding-top: 10px;
+  resize: none;
+}
+
+.contact .right form .button {
+  height: 37px;
+  width: 110px;
+}
+
+.contact .right form .button button {
+  height: 100%;
+  width: 100%;
+  border: 2px solid crimson;
+  border-radius: 12px;
+  background: crimson;
+  color: white;
+  font-size: 17px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.contact .right form .button button:hover {
+color: crimson;
+background: none;
+cursor: pointer;
+}
 
 
 
  /* footer styles */
- footer {
-   background: black;
-   display: flex;
-   align-content: center;
-   justify-content: center;
-   align-items: center;
-   padding: 10px;
- }
+footer {
+  background: black;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
 
- footer p {
-   font-size: 1.6rem;
-   color: rgb(180, 180, 180);
-   margin: 10px 15px ;
- }
+footer p {
+  font-size: 1.6rem;
+  color: rgb(180, 180, 180);
+  margin: 10px 15px ;
+}
 
- footer .icons i{
-   color: crimson;
-   font-size: 2em;
-   margin: 0 5px;
- }
+footer .icons i{
+  color: crimson;
+  font-size: 2em;
+  margin: 0 5px;
+}
 
 
 
