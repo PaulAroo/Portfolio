@@ -422,6 +422,12 @@ section .title::after {
   max-width: 350px;
   border-radius: 10px;
   box-shadow: 1px 1px 9px 0px;
+  transition: all 0.3s ease;
+}
+
+.project:hover {
+  transform: scale(1.1);
+  cursor: pointer;
 }
 
 .project .title {
