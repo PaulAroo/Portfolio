@@ -647,8 +647,6 @@ footer .icons i:hover {
 
 
 
-
-
 /* responsive text */
 @media (max-width: 1470px) {
   .home .max-width {
@@ -809,5 +807,9 @@ footer .icons i:hover {
 
   footer p {
     font-size: 1.1rem;
+  }
+
+  .scroll-up-btn.show {
+    bottom: 50px;
   }
 }
