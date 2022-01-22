@@ -9,6 +9,10 @@
   /* outline: 2px dotted blue; */
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .max-width {
   max-width: 1820px;
   padding: 0 80px;
