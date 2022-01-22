@@ -29,4 +29,11 @@ $(document).ready(function() {
     backSpeed: 60,
     loop: true
   })
+
+  var typed2 = new Typed(".typing2", {
+    strings: ["Web Developer", "Data Scientist", "Technical Writer"],
+    typeSpeed: 100,
+    backSpeed: 60,
+    loop: true
+  })
 })
