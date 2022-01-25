@@ -72,7 +72,7 @@
           <div class="box">
             <i class="fas fa-laptop-code"></i>
             <div class="text">Web Development</div>
-            <p>I build different kinds of websites using HTML CSS and JavaScript. I also develop web applications using JavaScript libraries like REACT, NodeJs... I am also learning and collaborating on an <a style="color: crimson;" href="https://xiome.io/"> open-source project</a> that involves building web components.</p>
+            <p>I build different kinds of websites using HTML CSS and JavaScript. I also develop web applications using JavaScript libraries like REACT, NodeJs... I am also learning and collaborating on an <a style="color: rgb(173, 75, 95);" href="https://xiome.io/"> open-source project</a> that involves building web components.</p>
           </div>
         </div>
 
@@ -177,7 +177,7 @@
 
         <div class="project">
           <div class="thumbnail">
-            <img src="/assets/watch out.PNG" alt="">
+            <img src="./assets/watchout.PNG" alt="">
           </div>
           <div class="title">Incoming</div>
           <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo alias nesciunt eaque magnam est culpa aut cupiditate consequuntur non voluptatum.</p>
@@ -220,24 +220,25 @@
         </div>
         <div class="column right">
           <div class="text">Leave a message</div>
-          <form action="#">
+          <form action="https://formspree.io/f/mnqllnrb" method="post" id="contact-form">
             <div class="fields">
               <div class="field name">
-                <input type="text" placeholder="Name" required>
+                <input id="name" name="name" type="text" placeholder="Name" required>
               </div>
               <div class="field email">
-                <input type="email" placeholder="Email" required>
+                <input id="email" name="email" type="email" placeholder="Email" required>
               </div>
             </div>
             <div class="field">
-              <input type="text" placeholder="Subject">
+              <input id="subject" name="subject" type="text" placeholder="Subject">
             </div>
             <div class="field textarea">
-              <textarea cols="30" rows="50" placeholder="Message..." required></textarea>
+              <textarea id="message" name="message" cols="30" rows="50" placeholder="Message..." required></textarea>
             </div>
             <div class="button">
-              <button type="submit">Send</button>
+              <button type="submit" value="submit">Send</button>
             </div>
+            <p style="text-align: center;" id="my-form-status"></p>
           </form>
         </div>
       </div>
